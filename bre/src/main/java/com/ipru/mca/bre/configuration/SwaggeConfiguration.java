@@ -26,7 +26,7 @@ public class SwaggeConfiguration {
 	private ApiInfo apiInfo() {
 		//title titledescription descriptionversion versiontermsOfServiceUrl termsOfServiceUrlcontact contactlicense licenselicenseUrl license urlvendorExtensions vendor extensions
 		
-		ApiInfo apiInfo = new ApiInfo("MCA", "Multi channel architecture for integratiing with other systems", "V_1.1", "Free to use", new Contact("rahul singh", "www.bikeguru.com", "siingh.rahul@gmail.com"), "RS Licence", "www.bikeguru.com",Collections.EMPTY_LIST);
+		ApiInfo apiInfo = new ApiInfo("MCA", "Multi channel architecture for integratiing with other systems", "V_1.1", "Free to use", new Contact("rahul singh", "www.bikeguru.com", "siingh.rahul@gmail.com"), "RS Licence", "www.bikeguru.com",Collections.emptyList());
 		return apiInfo;
 	}
 
